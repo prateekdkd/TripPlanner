@@ -87,7 +87,7 @@ function App() {
   const [notice, setNotice] = useState("Demo estimate — not a trained model prediction.");
   const [editingId, setEditingId] = useState(null);
   const [selectedTrip, setSelectedTrip] = useState(null);
-  const [profileName, setProfileName] = useState("Rahul Sharma");
+  const [profileName, setProfileName] = useState("Prateek Dhakar");
   const [season, setSeason] = useState("Regular");
   const [transport, setTransport] = useState("Train");
   const [distance, setDistance] = useState("1200");
