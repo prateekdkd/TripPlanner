@@ -1,16 +1,23 @@
-# Python
+Backend/venv/
+Backend/.venv/
+Backend/venv312/
+Backend/.venv-1/
+
 venv/
 venv312/
 .venv/
+.venv-1/
+
+**/venv/
+**/venv312/
+**/.venv/
+**/.venv-1/
+
 __pycache__/
 *.pyc
-
-# Node
 node_modules/
 dist/
 
-# Environment variables
+# Environment
 .env
 
-# System
-.DS_Store
