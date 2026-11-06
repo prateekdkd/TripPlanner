@@ -117,7 +117,7 @@ function App() {
   setNotice("Predicting trip cost...");
   
   try {
-    const response = await fetch("https://tripplanner-2dej.onrender.com", {
+    const response = await fetch("https://tripplanner-2dej.onrender.com/predict", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
